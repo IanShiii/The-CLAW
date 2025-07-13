@@ -1,0 +1,16 @@
+{
+    "python.autoComplete.extraPaths": [
+        "{workspaceFolder}/install/servo/lib/python3.12/site-packages",
+        "{workspaceFolder}/install/robot_description/lib/python3.12/site-packages",
+        "{workspaceFolder}/install/constants/lib/python3.12/site-packages",
+        "{workspaceFolder}/install/arm_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "{workspaceFolder}/install/servo/lib/python3.12/site-packages",
+        "{workspaceFolder}/install/robot_description/lib/python3.12/site-packages",
+        "{workspaceFolder}/install/constants/lib/python3.12/site-packages",
+        "{workspaceFolder}/install/arm_controller/lib/python3.12/site-packages",
+        "/opt/ros/jazzy/lib/python3.12/site-packages"
+    ],
+    }
