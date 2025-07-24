@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'constants'
+package_name = 'claw'
 
 setup(
     name=package_name,

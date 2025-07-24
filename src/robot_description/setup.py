@@ -4,6 +4,9 @@ from glob import glob
 
 package_name = 'robot_description'
 
+def get_files_in(directory):
+    return [f for f in glob(os.path.join(directory, '*')) if os.path.isfile(f)]
+
 setup(
     name=package_name,
     version='0.0.0',
@@ -12,8 +15,9 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        (os.path.join('share', package_name, 'launch'), glob('launch/*')),
-        (os.path.join('share', package_name), glob('urdf/*')),
+        (os.path.join('share', package_name, 'urdf'), get_files_in('urdf')),
+        (os.path.join('share', package_name, 'urdf', 'assets'), glob('urdf/assets/*')),
+        (os.path.join('share', package_name, 'rviz'), glob('rviz/*'))
     ],
     install_requires=['setuptools'],
     zip_safe=True,
@@ -23,8 +27,6 @@ setup(
     license='MIT',
     tests_require=['pytest'],
     entry_points={
-        'console_scripts': [
-            'state_publisher = robot_description.state_publisher:main'
-        ],
+        'console_scripts': [],
     },
 )

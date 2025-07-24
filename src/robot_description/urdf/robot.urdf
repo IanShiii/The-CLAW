@@ -1,0 +1,285 @@
+<?xml version="1.0" ?>
+<!-- Generated using onshape-to-robot -->
+<!-- Onshape https://cad.onshape.com/documents/dbb8f7b72455dcb74730a11e/w/841ecca0f9b59e2bee4d5a29/e/db35c0f0a02e57af22c1cb1d -->
+<robot name="robot">
+  <!-- Link base -->
+  <link name="base">
+    <inertial>
+      <origin xyz="-7.78184e-07 -0.000122266 0.0223033" rpy="0 0 0"/>
+      <mass value="0.119991"/>
+      <inertia ixx="0.000171893" ixy="5.7312e-10" ixz="-7.29556e-11" iyy="0.000159842" iyz="-4.88855e-06" izz="0.000259677"/>
+    </inertial>
+    <!-- Part base -->
+    <visual>
+      <origin xyz="-1.17772e-08 3.67761e-08 0.028" rpy="1.5708 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/base.stl"/>
+      </geometry>
+      <material name="base_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.17772e-08 3.67761e-08 0.028" rpy="1.5708 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/base.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part mg995 -->
+    <visual>
+      <origin xyz="-1.16649e-08 0.01025 0.011" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/mg995.stl"/>
+      </geometry>
+      <material name="mg995_material">
+        <color rgba="0.792157 0.819608 0.933333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.16649e-08 0.01025 0.011" rpy="0 -0 -1.5708"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/mg995.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_15 -->
+  <link name="part_15">
+    <inertial>
+      <origin xyz="-0.00643625 -0.00137164 -0.0172894" rpy="0 0 0"/>
+      <mass value="0.0850159"/>
+      <inertia ixx="7.2613e-05" ixy="-8.01679e-07" ixz="-6.46873e-06" iyy="5.62286e-05" iyz="-7.79796e-06" izz="6.82804e-05"/>
+    </inertial>
+    <!-- Part part_15 -->
+    <visual>
+      <origin xyz="1.62471e-09 -3.30872e-24 -0.0323882" rpy="-1.5708 -3.85186e-34 3.50339e-17"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_15.stl"/>
+      </geometry>
+      <material name="part_15_material">
+        <color rgba="0.972549 0.529412 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="1.62471e-09 -3.30872e-24 -0.0323882" rpy="-1.5708 -3.85186e-34 3.50339e-17"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_15.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part mg995_2 -->
+    <visual>
+      <origin xyz="-0.047 -0.00667066 -0.0330286" rpy="-1.5708 0.785398 -1.5708"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/mg995.stl"/>
+      </geometry>
+      <material name="mg995_2_material">
+        <color rgba="0.792157 0.819608 0.933333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.047 -0.00667066 -0.0330286" rpy="-1.5708 0.785398 -1.5708"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/mg995.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_7 -->
+  <link name="part_7">
+    <inertial>
+      <origin xyz="7.07908e-08 -0.0607947 0.00778456" rpy="0 0 0"/>
+      <mass value="0.0798388"/>
+      <inertia ixx="0.000133734" ixy="3.91739e-09" ixz="-2.64912e-11" iyy="1.1365e-05" iyz="2.99242e-07" izz="0.000139742"/>
+    </inertial>
+    <!-- Part part_7 -->
+    <visual>
+      <origin xyz="-0.000612362 -0.0623379 0.0105" rpy="-9.76574e-17 -1.73595e-18 -1.36829e-17"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_7.stl"/>
+      </geometry>
+      <material name="part_7_material">
+        <color rgba="0.972549 0.529412 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.000612362 -0.0623379 0.0105" rpy="-9.76574e-17 -1.73595e-18 -1.36829e-17"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_7.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_8 -->
+  <link name="part_8">
+    <inertial>
+      <origin xyz="2.83935e-05 -0.0392827 -0.00740868" rpy="0 0 0"/>
+      <mass value="0.0628155"/>
+      <inertia ixx="6.82108e-05" ixy="8.6216e-08" ixz="-1.70688e-10" iyy="1.15999e-05" iyz="-3.58484e-07" izz="7.26421e-05"/>
+    </inertial>
+    <!-- Part mg995_3 -->
+    <visual>
+      <origin xyz="4.03941e-09 -0.01025 -0.042" rpy="-3.91335e-16 -1.78887e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/mg995.stl"/>
+      </geometry>
+      <material name="mg995_3_material">
+        <color rgba="0.792157 0.819608 0.933333 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="4.03941e-09 -0.01025 -0.042" rpy="-3.91335e-16 -1.78887e-16 1.5708"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/mg995.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part sg90_v1 -->
+    <visual>
+      <origin xyz="-0.01105 -0.06145 -0.013688" rpy="3.13951 -3.21993e-16 -2.10215e-16"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/sg90_v1.stl"/>
+      </geometry>
+      <material name="sg90_v1_material">
+        <color rgba="0.796078 0.796078 0.796078 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-0.01105 -0.06145 -0.013688" rpy="3.13951 -3.21993e-16 -2.10215e-16"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/sg90_v1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_8 -->
+    <visual>
+      <origin xyz="-1.36336e-09 -0.03225 -0.0075" rpy="3.14159 -5.15449e-17 -5.99715e-17"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_8.stl"/>
+      </geometry>
+      <material name="part_8_material">
+        <color rgba="0.498039 0.498039 0.498039 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.36336e-09 -0.03225 -0.0075" rpy="3.14159 -5.15449e-17 -5.99715e-17"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_8.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_9 -->
+  <link name="part_9">
+    <inertial>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <mass value="1e-09"/>
+      <inertia ixx="1e-09" ixy="0" ixz="0" iyy="1e-09" iyz="0" izz="1e-09"/>
+    </inertial>
+    <!-- Part sg90_v1_2 -->
+    <visual>
+      <origin xyz="0.011188 0.0148 -0.03405" rpy="3.13951 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/sg90_v1.stl"/>
+      </geometry>
+      <material name="sg90_v1_2_material">
+        <color rgba="0.796078 0.796078 0.796078 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.011188 0.0148 -0.03405" rpy="3.13951 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/sg90_v1.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part part_9 -->
+    <visual>
+      <origin xyz="0.005 4.99634e-10 -0.023" rpy="-1.5708 -7.99122e-18 1.04057e-17"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_9.stl"/>
+      </geometry>
+      <material name="part_9_material">
+        <color rgba="0.980392 0.713725 0.00392157 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.005 4.99634e-10 -0.023" rpy="-1.5708 -7.99122e-18 1.04057e-17"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_9.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Link part_14 -->
+  <link name="part_14">
+    <inertial>
+      <origin xyz="0.00581792 0.0235542 0.00197611" rpy="0 0 0"/>
+      <mass value="0.0196507"/>
+      <inertia ixx="1.01415e-05" ixy="-1.70478e-06" ixz="-4.37832e-07" iyy="3.19938e-06" iyz="-1.78514e-06" izz="9.05621e-06"/>
+    </inertial>
+    <!-- Part part_14 -->
+    <visual>
+      <origin xyz="-1.88701e-09 0.0245 0.0082" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_14.stl"/>
+      </geometry>
+      <material name="part_14_material">
+        <color rgba="0.768627 0.886275 0.952941 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="-1.88701e-09 0.0245 0.0082" rpy="-1.5708 -1.5708 0"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/part_14.stl"/>
+      </geometry>
+    </collision>
+    <!-- Part simplified_part_attachment -->
+    <visual>
+      <origin xyz="0.0115 0.093353 0.00146" rpy="1.365e-15 -5.25104e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/simplified_part_attachment.stl"/>
+      </geometry>
+      <material name="simplified_part_attachment_material">
+        <color rgba="0.615686 0.811765 0.929412 1"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0.0115 0.093353 0.00146" rpy="1.365e-15 -5.25104e-16 3.14159"/>
+      <geometry>
+        <mesh filename="package://robot_description/urdf/assets/simplified_part_attachment.stl"/>
+      </geometry>
+    </collision>
+  </link>
+  <!-- Joint from part_9 to part_14 -->
+  <joint name="joint_5" type="revolute">
+    <origin xyz="0.005 -0.014 -0.028" rpy="-1.5708 -0.412425 -7.74018e-15"/>
+    <parent link="part_9"/>
+    <child link="part_14"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-1.15837" upper="1.98322"/>
+  </joint>
+  <!-- Joint from part_8 to part_9 -->
+  <joint name="joint_4" type="revolute">
+    <origin xyz="-0.0053 -0.08975 -0.0075" rpy="-1.5708 -1.52895 -7.62844e-14"/>
+    <parent link="part_8"/>
+    <child link="part_9"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.0418501" upper="3.09974"/>
+  </joint>
+  <!-- Joint from part_7 to part_8 -->
+  <joint name="joint_3" type="revolute">
+    <origin xyz="-4.04768e-09 -0.12 8.58688e-17" rpy="2.50215e-15 5.38531e-15 0.605294"/>
+    <parent link="part_7"/>
+    <child link="part_8"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-2.17609" upper="0.965502"/>
+  </joint>
+  <!-- Joint from part_15 to part_7 -->
+  <joint name="joint_2" type="revolute">
+    <origin xyz="-0.004 -0.0139185 -0.0402765" rpy="1.5708 1.4363 1.5708"/>
+    <parent link="part_15"/>
+    <child link="part_7"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.134493" upper="3.0071"/>
+  </joint>
+  <!-- Joint from base to part_15 -->
+  <joint name="joint_1" type="revolute">
+    <origin xyz="-2.08489e-08 1.03674e-08 0.056" rpy="-3.14159 1.84871e-18 -2.24924"/>
+    <parent link="base"/>
+    <child link="part_15"/>
+    <axis xyz="0 0 1"/>
+    <limit effort="10" velocity="10" lower="-0.678448" upper="2.46314"/>
+  </joint>
+</robot>
