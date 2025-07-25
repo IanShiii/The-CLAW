@@ -5,11 +5,6 @@
         "/home/ian/The-CLAW/install/robot_description/lib/python3.12/site-packages",
         "/home/ian/The-CLAW/install/constants/lib/python3.12/site-packages",
         "/home/ian/The-CLAW/install/arm_controller/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_task_constructor_core/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_py/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
     ],
     "python.analysis.extraPaths": [
@@ -18,11 +13,6 @@
         "/home/ian/The-CLAW/install/robot_description/lib/python3.12/site-packages",
         "/home/ian/The-CLAW/install/constants/lib/python3.12/site-packages",
         "/home/ian/The-CLAW/install/arm_controller/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_task_constructor_core/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_task_constructor_msgs/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_py/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_msgs/lib/python3.12/site-packages",
-        "/home/ian/ws_moveit/install/moveit_configs_utils/lib/python3.12/site-packages",
         "/opt/ros/jazzy/lib/python3.12/site-packages"
     ],
-    }
+}

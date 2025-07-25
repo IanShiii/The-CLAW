@@ -4,5 +4,12 @@
     "output_filename": "robot",
     "assets_dir": "assets",
 
-    "robot_name": "robot"
+    "robot_name": "robot",
+
+    "joint_properties": {
+        "*": {
+            "max_velocity": 20.5,
+            "friction": 0.5
+        }
+    }
 }
